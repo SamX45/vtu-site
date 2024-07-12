@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VTU SITE</title>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Project(VTU) -->
+  <!-- Main Container -->
+<div class="container">
+  <!-- Header Section -->
+  <header>
+    <h1>VTU SITE</h1>
+    <p class="cur">Fast & Reliable</p>
+  </header>
+
+  <!-- Form Section -->
+  <form id="vtu-form">
+    <!-- Phone Number Input -->
+    <input type="number" id="phone-number" placeholder="Phone Number" required>
+
+    <!-- Operator Select -->
+    <select id="operator">
+      <option value="">Select Operator</option>
+      <option value="MTN">MTN</option>
+      <option value="GLO">GLO</option>
+      <option value="AIRTEL">AIRTEL</option>
+      <option value="9MOBILE">9MOBILE</option>
+    </select>
+
+    <!-- Amount Input -->
+    <input type="number" id="amount" placeholder="Amount" required>
+
+    <!-- Recharge Button -->
+    <button id="recharge-btn">Recharge</button>
+    <p><b>NOTE:</b> Kindly send transaction details to 09077691118 on WhatsApp after purchase. Thank you.</p>
+  </form>
+
+  <!-- Response Section -->
+  <div id="response"></div>
+</div>
+
+<!-- Loader Container -->
+<div class="loader-container">
+  <div class="loader"></div>
+</div>
+  <script src="main.js"></script>
+</body>
+</html>
